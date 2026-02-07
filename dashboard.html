@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Rain Pulse Academy</title>
+    <link rel="stylesheet" href="rp.css">
+    <link rel="icon" type="image/png" href="لوجو rp.png">
+</head>
+<body>
+    <div class="brand-container">
+        <img src="لوجو rp.png" alt="Logo">
+        <span>Rain Pulse</span>
+    </div>
+
+    <button id="logoutBtn" class="login-nav-btn" style="border:none; cursor:pointer;">Logout</button>
+
+    <div class="welcome-badge">لوحة التحكم</div>
+    <h1>!اهلا يا هندسه</h1>
+    <p>تم تسجيل الدخول بنجاح، يمكنك الآن مشاهدة المحاضرات.</p>
+
+    <div class="video-grid">
+        <div class="video-card">
+            <div class="thumbnail">
+                <img src="لوجو rp.png" alt="Lesson">
+            </div>
+            <div class="info">
+                <h3>كورس البرمجة (مفتوح)</h3>
+                <p>مشاهدة ممتعة يا هندسة</p>
+                <button class="login-btn" style="width: auto; padding: 8px 20px;">شاهد الآن</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="fixed-footer">
+        <div class="footer-wrap">
+            <p>&copy; 2026 <span class="pulse-text">Rain Pulse Academy</span>. All Rights Reserved.</p>
+            <div class="footer-status"><span class="online-dot"></span> System Online</div>
+        </div>
+    </footer>
+
+    <script src="dash.js"></script>
+    <div class="video-grid">
+    <div class="video-card">
+        <div class="thumbnail">
+            <iframe 
+                src="https://player.vimeo.com/video/YOUR_VIDEO_ID?h=hash_code" 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="info">
+            <h3>كورس البرمجة - المحاضرة الأولى</h3>
+            <p>مرحباً بك في عالم الاحتراف</p>
+            <button class="login-btn" style="width: auto; padding: 8px 20px;">تمت المشاهدة ✅</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
